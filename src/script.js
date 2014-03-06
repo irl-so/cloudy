@@ -1,5 +1,5 @@
 //setting the map
-var map = L.mapbox.map('map', 'llifewinning.heoomgdl', {zoomControl: false})
+var map = L.mapbox.map('map', 'lifewinning.heoomgdl', {zoomControl: false})
     .setView([38.8932, -77.3249], 11);
 var ui = document.getElementById('map-ui');
 
