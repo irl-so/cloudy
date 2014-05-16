@@ -19,16 +19,6 @@ body{margin: 0; padding: 0;}
 .clearfix {  
     *zoom: 1;  
 }  
-/*nav classes for layer key*/
-#phoneData{
-	background-color: #729349!important;
-}
-#pictures{
-	background-color: #33959C!important;
-}
-#cheats{
-	background-color: #C67E48!important;
-}
 
 /*nav*/
 
@@ -50,13 +40,12 @@ body{margin: 0; padding: 0;}
 	width: auto;
     font: 12px "proxima-nova-alt", 'Varela', Helvetica, sans-serif;
     background: #FFF;
-    color: #ddd;
+    color: #000;
     margin: 0;
     padding: 0;
     border: 1px solid #CCC;
     padding: 5px;
 }
-
 #map-ui li#label{
 	font: 12px "proxima-nova-alt", 'Varela', Helvetica, sans-serif;
     color: #FFF;
@@ -70,14 +59,9 @@ body{margin: 0; padding: 0;}
 }
 
 #map-ui li a{
-	color: white;
+	color: #000!important;
 	text-decoration: none;
 	text-transform: uppercase;
-}
-
-#map-ui li.active {
-    background: #ddd;
-    color: #000;
 }
 
 
@@ -129,7 +113,7 @@ background-position: bottom;
     }  
 #map-nav li#pull a{
 	font: 16px "proxima-nova-alt", 'Varela', Helvetica, sans-serif;
-	color: #fff;
+	color: #ddd!important;
 	text-decoration: none;
 	text-transform: uppercase;  }
 }
